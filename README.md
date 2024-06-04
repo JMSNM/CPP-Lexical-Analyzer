@@ -19,7 +19,15 @@ Flex added to your system's PATH
 # Usage
 Install Flex and add it to your system's PATH
 Open terminal and go to the directory where the lexer.l file is located.
+
+
 Type 'flex lexer.l'
+
+
 This should generate a 'lex.yy.c' file
+
+
 Type 'gcc lex.yy.c -o output'
+
+
 Then type './output input.cpp' (input.cpp can be any file you want to tokenize)
